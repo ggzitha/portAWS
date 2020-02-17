@@ -79,4 +79,4 @@ while 1:
                 with cd("~/Desktop/Read/"):
                     subprocess.call(["git", "add", "."], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                     subprocess.call(["git", "commit", "-m", "\"initial commit\""])
-                    subprocess.call(["git", "push", "-u", "--force", "origin", "master"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+                    subprocess.call(["git", "push", "-u", "--force", "origin", "master"])
